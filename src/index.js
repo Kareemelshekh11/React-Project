@@ -17,7 +17,9 @@ root.render(
     <BrowserRouter>
     <Navbar/>
     <Routes>
+       <Route path="" element={<Home/>}/>
        <Route path="/" element={<Home/>}/>
+       <Route path='/React-Project' element={<Home/>}/>
        <Route path="/home" element={<Home/>}/>
        <Route path="/movies" element={<Movies/>}/>
        <Route path="/tv" element={<Tv/>}/>
